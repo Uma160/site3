@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trail Club - Home</title>
+    <style>
+        /* Базовые отступы страницы */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Контейнер задает ширину макета из Figma и полей по бокам */
+        .container {
+            max-width: 680px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Навигация с отступами между ссылками */
+        nav a {
+            margin-right: 15px;
+        }
+
+        /* Отступы вокруг заголовка */
+        h2 {
+            margin-top: 25px;
+            margin-bottom: 20px;
+        }
+
+        /* КАРТИНКА: строго по левому краю и с нужными отступами */
+        .banner-img {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Вертикальные отступы для линий разграничения */
+        hr {
+            margin: 20px 0;
+        }
+
+        /* Отступы для списков */
+        ul, ol {
+            padding-left: 20px;
+        }
+
+        /* Отступы для раскрывающегося блока */
+        details {
+            margin: 20px 0;
+        }
+
+        /* Отступы в подвале */
+        footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Шапка -->
+        <header>
+            <h1>Trail Club</h1>
+            <p>Student hiking club - Classroom example</p>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="routes.html">Routes</a>
+                <a href="apply.html">Apply for a trip</a>
+            </nav>
+        </header>
+
+        <hr>
+
+        <!-- Главный контент -->
+        <main>
+            <h2>Your Next Adventure Starts Here</h2>
+            
+            <img src="mountains.svg" alt="Trail Club mountains illustration" class="banner-img">
+            
+            <p><em>Plan carefully. Travel together. Leave no trace.</em></p>
+            <p>We organize student walks and practice responsible trip planning.</p>
+            <p><a href="routes.html">Compare routes</a> - <a href="apply.html">Apply for a place</a></p>
+
+            <section>
+                <h3>Before You Go</h3>
+                <ol>
+                    <li>Choose a route.
+                        <ul>
+                            <li>Check distance and duration.</li>
+                            <li>Read the preparation checklist.</li>
+                        </ul>
+                    </li>
+                    <li>Prepare your equipment.
+                        <ul>
+                            <li>Water and food</li>
+                            <li>Comfortable shoes</li>
+                            <li>Weather-appropriate clothing</li>
+                        </ul>
+                    </li>
+                    <li>Complete the application form.</li>
+                </ol>
+            </section>
+
+            <section>
+                <details>
+                    <summary>What does "leave no trace" mean?</summary>
+                    <p>Leave No Trace is a set of outdoor ethics promoting conservation in the outdoors.</p>
+                </details>
+            </section>
+
+            <section>
+                <h3>Club Notice</h3>
+                <p>Our next planning meeting is on 15 October at 15.30.</p>
+                <p>These trips are examples for this assignment, no real booking is available.</p>
+            </section>
+        </main>
+
+        <hr>
+
+        <!-- Подвал -->
+        <footer>
+            <p>Trail Club - Fictional trips and prices for HTML practice</p>
+            <a href="#">Back to top ↑</a>
+        </footer>
+    </div>
+
+</body>
+</html>
